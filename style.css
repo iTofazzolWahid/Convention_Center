@@ -1,0 +1,74 @@
+/* Font Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@700&family=Outfit:wght@700&family=Poppins:wght@700&family=Quicksand:wght@700&family=Work+Sans:wght@700&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.cat1 {
+    background-color: orange;
+}
+
+.cat2 {
+    background-color: orchid;
+}
+
+.cat3 {
+    background-color: cyan;
+}
+
+.categories img {
+    width: 100px;
+}
+
+span {
+    color: orange;
+}
+
+.footer-bg {
+    background-color: #0B0D17;
+}
+
+.animation-part {
+    width: 20ch;
+    animation: typing 2s steps(25), blink .8s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.fa-check {
+    color: mediumslateblue;
+}
